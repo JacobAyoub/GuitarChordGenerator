@@ -45,9 +45,9 @@ export default function Home() {
                 </p>
               )}
             {result && (
-              <div className="mt-6">
+              <pre className="mt-6 text-left font-mono whitespace-pre-wrap">
                 {result}
-              </div>
+              </pre>
             )}
           </div>
         </div>
